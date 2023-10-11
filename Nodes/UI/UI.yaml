@@ -848,6 +848,14 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 30.0
+  - Name: Label1
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Label1"}
 - File: Screens/Screens.yaml
 - File: Pages/Pages.yaml
 - File: QPage/QPage.yaml

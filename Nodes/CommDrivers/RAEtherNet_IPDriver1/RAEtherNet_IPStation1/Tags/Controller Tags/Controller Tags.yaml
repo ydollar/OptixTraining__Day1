@@ -1,0 +1,23 @@
+Name: Controller Tags
+Type: FolderType
+Children:
+- Name: Switch
+  Id: g=ee08a848ca11e36f24e0100e3c77f593
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Switch"
+- Name: Running
+  Id: g=87ed43d4ec2bbde01398e8de4b571549
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Running"

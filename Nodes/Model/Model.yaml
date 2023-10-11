@@ -1,0 +1,59 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 100
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 200
+- Name: MotorCtr
+  Id: g=91c23995841e65898250e4b1c405a1ca
+  Supertype: BaseObjectType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acc
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: MotorCtr1
+  Id: g=25674d5bc66742cddd8d33db84a0d7fa
+  Type: MotorCtr
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acc
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: MotorCtr2
+  Id: g=8fad148233658085f0c4cd6ac83094fa
+  Type: MotorCtr
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acc
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: MotorCtr3
+  Id: g=acbdc08d3a23a68fea56e904fbda5742
+  Type: MotorCtr
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acc
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
